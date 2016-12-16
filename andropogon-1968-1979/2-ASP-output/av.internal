@@ -1,0 +1,11 @@
+firstTName = '1'
+secondTName = '2'
+thirdTName = ''
+fourthTName = ''
+fifthTName = ''
+allRcgEdgesDict = {}
+numOfPws = 1
+avFlag = False
+allRcgNodesDict = {'2.35': {'concept': '35', 'group': '2'}, '2.34': {'concept': '34', 'group': '2'}, '2.37': {'concept': '37', 'group': '2'}, 'comb.1.31\\n1.32\\n2.33': {'concept': '1.31\\n1.32\\n2.33', 'group': 'comb'}, '2.36': {'concept': '36', 'group': '2'}, '2.38': {'concept': '38', 'group': '2'}}
+trlist = [['2.36', '2.35', 0], ['2.37', '2.35', 0], ['2.34', '1.31\\n1.32\\n2.33', 0], ['2.35', '1.31\\n1.32\\n2.33', 0], ['2.38', '1.31\\n1.32\\n2.33', 0], ['2.36', '1.31\\n1.32\\n2.33', 2], ['2.37', '1.31\\n1.32\\n2.33', 2]]
+avFlag = True

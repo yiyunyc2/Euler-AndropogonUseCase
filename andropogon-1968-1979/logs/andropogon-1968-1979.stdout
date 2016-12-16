@@ -1,0 +1,37 @@
+##### Executing command:
+
+/Users/jessicacheng/EulerX/src-el/euler2 align /Users/jessicacheng/Desktop/RA 2016/Andropogon-use-cases/andropogon-1968-1979/andropogon-1968-1979.txt 
+
+
+##### Euler version:
+
+master
+7549d5d840886cfde8f754e2f8a9a682ad661d42
+
+
+##### GraphViz version:
+
+dot - graphviz version 2.36.0 (20140111.2315)
+
+
+##### DLV version:
+
+DLV [build BEN/Dec 17 2012   gcc 4.2.1 (Apple Inc. build 5666) (dot 3)]
+
+usage: dlv {FRONTEND} {OPTIONS} [filename [filename [...]]]
+
+Specify -help for more detailed usage information.
+
+
+##### Running User, Host and Date:
+User:	jessicacheng
+Host:	JessicatekiMacBook-Air.local
+Date:	2016-12-16-22:21:21
+
+
+##### Euler Outputs:
+******* You are running example andropogon-1968-1979 *******
+
+Possible world 0:
+{1.32">"2.38, 1.31">"2.34, 1.31">"2.35, 1.31">"2.36, 1.31">"2.37, 1.32">"2.36, 1.32">"2.37, 1.32">"2.35, 1.32">"2.34, 1.31">"2.38, 1.31"="2.33, 1.32"="2.33}
+

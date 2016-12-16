@@ -1,0 +1,37 @@
+digraph{
+rankdir=RL
+node[shape=octagon style=filled fillcolor="#FFFFCC"] 
+"2.35"
+"2.34"
+"2.37"
+"2.36"
+"2.38"
+node[shape=box style="filled,rounded" fillcolor="#EEEEEE"] 
+"1.31\n1.32\n2.33"
+edge[arrowhead=normal style=solid color="#000000" constraint=true penwidth=1]
+"2.34" -> "1.31\n1.32\n2.33"
+"2.38" -> "1.31\n1.32\n2.33"
+"2.35" -> "1.31\n1.32\n2.33"
+"2.36" -> "2.35"
+"2.37" -> "2.35"
+edge[arrowhead=normal style=dotted color="#000000" constraint=true penwidth=1]
+node[shape=box] 
+{rank=source Legend [fillcolor= white margin=0 label=< 
+ <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"> 
+<TR> <TD COLSPAN="2"><font face="Arial Black"> Nodes</font></TD> </TR> 
+<TR> 
+ <TD bgcolor="#FFFFCC">2</TD> 
+ <TD>5</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#EEEEEE">comb</TD> 
+ <TD>1</TD> 
+ </TR> 
+<TR> <TD COLSPAN="2"><font face = "Arial Black"> Edges </font></TD> </TR> 
+<TR> 
+ <TD><font color ="#000000">input</font></TD> 
+ <TD>5</TD> 
+ </TR> 
+</TABLE> 
+ >] } 
+}

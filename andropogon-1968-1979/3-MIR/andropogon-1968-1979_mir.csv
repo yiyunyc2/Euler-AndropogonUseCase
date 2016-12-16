@@ -1,0 +1,12 @@
+1.31,>,2.34,deduced
+1.31,>,2.35,deduced
+1.31,>,2.36,deduced
+1.31,>,2.37,deduced
+1.31,>,2.38,deduced
+1.32,>,2.36,deduced
+1.32,>,2.37,deduced
+1.32,=,2.33,inferred
+1.31,=,2.33,input
+1.32,>,2.34,input
+1.32,>,2.35,input
+1.32,>,2.38,input
