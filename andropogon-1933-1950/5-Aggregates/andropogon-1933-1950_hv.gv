@@ -1,0 +1,26 @@
+digraph {
+
+rankdir = RL
+
+"1.13\n2.24" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.14\n2.25" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.15\n2.27" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.16" [shape=box style="filled" fillcolor="#CCFFCC"]
+"2.26" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"2.28" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"2.29" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"2.30" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"1.14\n2.25" -> "1.13\n2.24" [style=filled,label=1,color="#761212"];
+"1.15\n2.27" -> "1.13\n2.24" [style=filled,label=1,color="#761212"];
+"1.15\n2.27" -> "2.26" [style=filled,label=1,color="#761212"];
+"1.16" -> "1.13\n2.24" [style=filled,label=1,color="#761212"];
+"2.26" -> "1.13\n2.24" [style=filled,label=1,color="#761212"];
+"2.28" -> "1.13\n2.24" [style=filled,label=1,color="#761212"];
+"2.28" -> "1.16" [style=filled,label=1,color="#761212"];
+"2.28" -> "2.26" [style=filled,label=1,color="#761212"];
+"2.29" -> "1.13\n2.24" [style=filled,label=1,color="#761212"];
+"2.29" -> "1.16" [style=filled,label=1,color="#761212"];
+"2.29" -> "2.26" [style=filled,label=1,color="#761212"];
+"2.30" -> "1.13\n2.24" [style=filled,label=1,color="#761212"];
+"2.30" -> "1.16" [style=filled,label=1,color="#761212"];
+}

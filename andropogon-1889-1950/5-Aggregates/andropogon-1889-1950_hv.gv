@@ -1,0 +1,44 @@
+digraph {
+
+rankdir = RL
+
+"1.10\n2.29" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.11" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.12" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.1\n2.24" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.2" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.3\n2.25" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.4" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.5" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.6\n1.7\n2.27" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.8" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.9\n2.28" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"2.26" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"2.30" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"1.10\n2.29" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.10\n2.29" -> "1.8" [style=filled,label=1,color="#761212"];
+"1.10\n2.29" -> "2.26" [style=filled,label=1,color="#761212"];
+"1.11" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.11" -> "1.8" [style=filled,label=1,color="#761212"];
+"1.11" -> "2.30" [style=filled,label=1,color="#761212"];
+"1.12" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.12" -> "1.8" [style=filled,label=1,color="#761212"];
+"1.12" -> "2.30" [style=filled,label=1,color="#761212"];
+"1.2" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.3\n2.25" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.3\n2.25" -> "1.2" [style=filled,label=1,color="#761212"];
+"1.4" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.4" -> "1.3\n2.25" [style=filled,label=1,color="#761212"];
+"1.5" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.5" -> "1.3\n2.25" [style=filled,label=1,color="#761212"];
+"1.6\n1.7\n2.27" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.6\n1.7\n2.27" -> "1.2" [style=filled,label=1,color="#761212"];
+"1.6\n1.7\n2.27" -> "2.26" [style=filled,label=1,color="#761212"];
+"1.8" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.9\n2.28" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"1.9\n2.28" -> "1.8" [style=filled,label=1,color="#761212"];
+"1.9\n2.28" -> "2.26" [style=filled,label=1,color="#761212"];
+"2.26" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"2.30" -> "1.1\n2.24" [style=filled,label=1,color="#761212"];
+"2.30" -> "1.8" [style=filled,label=1,color="#761212"];
+}
