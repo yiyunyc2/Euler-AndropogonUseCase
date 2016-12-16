@@ -1,0 +1,62 @@
+digraph{
+rankdir=RL
+node[shape=box style=filled fillcolor="#CCFFCC"] 
+"1.46"
+"1.48"
+"1.40"
+"1.45"
+node[shape=octagon style=filled fillcolor="#FFFFCC"] 
+"2.61"
+"2.57"
+node[shape=box style="filled,rounded" fillcolor="#EEEEEE"] 
+"1.50\n2.62"
+"1.49\n2.60"
+"1.47\n2.59"
+"1.43\n2.56"
+"1.52\n2.64"
+"1.51\n2.63"
+"1.39\n2.53"
+"1.42\n2.55"
+"1.44\n2.58"
+"1.41\n2.54"
+edge[arrowhead=normal style=solid color="#000000" constraint=true penwidth=1]
+"1.49\n2.60" -> "1.48"
+"2.57" -> "1.40"
+"1.48" -> "1.39\n2.53"
+"1.41\n2.54" -> "1.40"
+"1.52\n2.64" -> "1.48"
+"1.46" -> "1.44\n2.58"
+"2.61" -> "1.48"
+"1.42\n2.55" -> "1.41\n2.54"
+"1.50\n2.62" -> "2.61"
+"1.44\n2.58" -> "2.57"
+"1.43\n2.56" -> "1.41\n2.54"
+"1.47\n2.59" -> "2.57"
+"1.51\n2.63" -> "2.61"
+"1.40" -> "1.39\n2.53"
+"1.45" -> "1.44\n2.58"
+edge[arrowhead=normal style=dotted color="#000000" constraint=true penwidth=1]
+node[shape=box] 
+{rank=source Legend [fillcolor= white margin=0 label=< 
+ <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"> 
+<TR> <TD COLSPAN="2"><font face="Arial Black"> Nodes</font></TD> </TR> 
+<TR> 
+ <TD bgcolor="#CCFFCC">1</TD> 
+ <TD>4</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#FFFFCC">2</TD> 
+ <TD>2</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#EEEEEE">comb</TD> 
+ <TD>10</TD> 
+ </TR> 
+<TR> <TD COLSPAN="2"><font face = "Arial Black"> Edges </font></TD> </TR> 
+<TR> 
+ <TD><font color ="#000000">input</font></TD> 
+ <TD>15</TD> 
+ </TR> 
+</TABLE> 
+ >] } 
+}

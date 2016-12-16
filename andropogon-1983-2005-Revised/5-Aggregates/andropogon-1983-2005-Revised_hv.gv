@@ -1,0 +1,55 @@
+digraph {
+
+rankdir = RL
+
+"1.39\n2.53" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.40" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.41\n2.54" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.42\n2.55" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.43\n2.56" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.44\n2.58" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.45" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.46" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.47\n2.59" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.48" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.49\n2.60" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.50\n2.62" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.51\n2.63" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.52\n2.64" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"2.57" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"2.61" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"1.40" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.41\n2.54" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.41\n2.54" -> "1.40" [style=filled,label=1,color="#761212"];
+"1.42\n2.55" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.42\n2.55" -> "1.40" [style=filled,label=1,color="#761212"];
+"1.42\n2.55" -> "1.41\n2.54" [style=filled,label=1,color="#761212"];
+"1.43\n2.56" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.43\n2.56" -> "1.40" [style=filled,label=1,color="#761212"];
+"1.43\n2.56" -> "1.41\n2.54" [style=filled,label=1,color="#761212"];
+"1.44\n2.58" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.44\n2.58" -> "1.40" [style=filled,label=1,color="#761212"];
+"1.44\n2.58" -> "2.57" [style=filled,label=1,color="#761212"];
+"1.45" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.45" -> "1.44\n2.58" [style=filled,label=1,color="#761212"];
+"1.46" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.46" -> "1.44\n2.58" [style=filled,label=1,color="#761212"];
+"1.47\n2.59" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.47\n2.59" -> "1.40" [style=filled,label=1,color="#761212"];
+"1.47\n2.59" -> "2.57" [style=filled,label=1,color="#761212"];
+"1.48" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.49\n2.60" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.49\n2.60" -> "1.48" [style=filled,label=1,color="#761212"];
+"1.50\n2.62" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.50\n2.62" -> "1.48" [style=filled,label=1,color="#761212"];
+"1.50\n2.62" -> "2.61" [style=filled,label=1,color="#761212"];
+"1.51\n2.63" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.51\n2.63" -> "1.48" [style=filled,label=1,color="#761212"];
+"1.51\n2.63" -> "2.61" [style=filled,label=1,color="#761212"];
+"1.52\n2.64" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"1.52\n2.64" -> "1.48" [style=filled,label=1,color="#761212"];
+"2.57" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"2.57" -> "1.40" [style=filled,label=1,color="#761212"];
+"2.61" -> "1.39\n2.53" [style=filled,label=1,color="#761212"];
+"2.61" -> "1.48" [style=filled,label=1,color="#761212"];
+}
