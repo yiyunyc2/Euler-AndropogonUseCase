@@ -1,0 +1,31 @@
+digraph {
+
+rankdir = RL
+
+"1.24\n2.33" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.25\n2.34" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.26" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.27\n2.36" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.28\n2.38" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.29" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.30" [shape=box style="filled" fillcolor="#CCFFCC"]
+"2.35" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"2.37" [shape=octagon style="filled" fillcolor="#FFFFCC"]
+"1.25\n2.34" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"1.26" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"1.27\n2.36" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"1.27\n2.36" -> "1.26" [style=filled,label=1,color="#761212"];
+"1.27\n2.36" -> "2.35" [style=filled,label=1,color="#761212"];
+"1.28\n2.38" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"1.28\n2.38" -> "1.26" [style=filled,label=1,color="#761212"];
+"1.29" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"1.29" -> "1.26" [style=filled,label=1,color="#761212"];
+"1.29" -> "2.35" [style=filled,label=1,color="#761212"];
+"1.29" -> "2.37" [style=filled,label=1,color="#761212"];
+"1.30" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"1.30" -> "2.35" [style=filled,label=1,color="#761212"];
+"1.30" -> "2.37" [style=filled,label=1,color="#761212"];
+"2.35" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"2.37" -> "1.24\n2.33" [style=filled,label=1,color="#761212"];
+"2.37" -> "2.35" [style=filled,label=1,color="#761212"];
+}

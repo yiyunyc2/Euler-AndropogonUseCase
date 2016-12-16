@@ -1,0 +1,57 @@
+digraph{
+rankdir=RL
+node[shape=box style=filled fillcolor="#CCFFCC"] 
+"1.29"
+"1.30"
+"1.26"
+node[shape=octagon style=filled fillcolor="#FFFFCC"] 
+"2.35"
+"2.37"
+node[shape=box style="filled,rounded" fillcolor="#EEEEEE"] 
+"1.27\n2.36"
+"1.28\n2.38"
+"1.24\n2.33"
+"1.25\n2.34"
+edge[arrowhead=normal style=solid color="#000000" constraint=true ]
+"2.37" -> "1.24\n2.33" [label="1"][color="#761212"]
+"1.29" -> "1.26" [label="1"][color="#761212"]
+"1.29" -> "2.35" [label="1"][color="#761212"]
+"1.28\n2.38" -> "1.26" [label="1"][color="#761212"]
+"1.29" -> "2.37" [label="1"][color="#761212"]
+"2.35" -> "1.24\n2.33" [label="1"][color="#761212"]
+"1.30" -> "1.24\n2.33" [label="1"][color="#761212"]
+"1.25\n2.34" -> "1.24\n2.33" [label="1"][color="#761212"]
+"2.37" -> "2.35" [label="1"][color="#761212"]
+"1.27\n2.36" -> "1.24\n2.33" [label="1"][color="#761212"]
+"1.29" -> "1.24\n2.33" [label="1"][color="#761212"]
+"1.26" -> "1.24\n2.33" [label="1"][color="#761212"]
+"1.28\n2.38" -> "1.24\n2.33" [label="1"][color="#761212"]
+"1.27\n2.36" -> "1.26" [label="1"][color="#761212"]
+"1.27\n2.36" -> "2.35" [label="1"][color="#761212"]
+"1.30" -> "2.37" [label="1"][color="#761212"]
+"1.30" -> "2.35" [label="1"][color="#761212"]
+edge[arrowhead=normal style=solid color="#000000" constraint=true ]
+node[shape=box] 
+{rank=source Legend [fillcolor= white margin=0 label=< 
+ <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"> 
+<TR> <TD COLSPAN="2"><font face="Arial Black"> Nodes</font></TD> </TR> 
+<TR> 
+ <TD bgcolor="#CCFFCC">1</TD> 
+ <TD>3</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#FFFFCC">2</TD> 
+ <TD>2</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#EEEEEE">comb</TD> 
+ <TD>4</TD> 
+ </TR> 
+<TR> <TD COLSPAN="2"><font face = "Arial Black"> Edges </font></TD> </TR> 
+<TR> 
+ <TD><font color ="#000000">default</font></TD> 
+ <TD>17</TD> 
+ </TR> 
+</TABLE> 
+ >] } 
+}

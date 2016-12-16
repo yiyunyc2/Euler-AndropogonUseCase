@@ -1,0 +1,75 @@
+'1.26':
+  concept: '26'
+  group: '1'
+'1.29':
+  concept: '29'
+  group: '1'
+'1.30':
+  concept: '30'
+  group: '1'
+'2.35':
+  concept: '35'
+  group: '2'
+'2.37':
+  concept: '37'
+  group: '2'
+comb.1.24\n2.33:
+  concept: 1.24\n2.33
+  group: comb
+comb.1.25\n2.34:
+  concept: 1.25\n2.34
+  group: comb
+comb.1.27\n2.36:
+  concept: 1.27\n2.36
+  group: comb
+comb.1.28\n2.38:
+  concept: 1.28\n2.38
+  group: comb
+1.25\n2.34_1.24\n2.33:
+  label: input
+  s: 1.25\n2.34
+  t: 1.24\n2.33
+1.26_1.24\n2.33:
+  label: input
+  s: '1.26'
+  t: 1.24\n2.33
+1.26_2.35:
+  label: overlaps
+  s: '1.26'
+  t: '2.35'
+1.26_2.37:
+  label: overlaps
+  s: '1.26'
+  t: '2.37'
+1.27\n2.36_1.26:
+  label: input
+  s: 1.27\n2.36
+  t: '1.26'
+1.27\n2.36_2.35:
+  label: input
+  s: 1.27\n2.36
+  t: '2.35'
+1.28\n2.38_1.26:
+  label: input
+  s: 1.28\n2.38
+  t: '1.26'
+1.29_1.26:
+  label: input
+  s: '1.29'
+  t: '1.26'
+1.29_2.37:
+  label: input
+  s: '1.29'
+  t: '2.37'
+1.30_2.37:
+  label: input
+  s: '1.30'
+  t: '2.37'
+2.35_1.24\n2.33:
+  label: input
+  s: '2.35'
+  t: 1.24\n2.33
+2.37_2.35:
+  label: input
+  s: '2.37'
+  t: '2.35'
