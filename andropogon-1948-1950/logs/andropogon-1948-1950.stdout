@@ -1,0 +1,37 @@
+##### Executing command:
+
+/Users/jessicacheng/EulerX/src-el/euler2 align /Users/jessicacheng/Desktop/RA 2016/Andropogon-use-cases/andropogon-1948-1950/andropogon-1948-1950.txt 
+
+
+##### Euler version:
+
+master
+7549d5d840886cfde8f754e2f8a9a682ad661d42
+
+
+##### GraphViz version:
+
+dot - graphviz version 2.36.0 (20140111.2315)
+
+
+##### DLV version:
+
+DLV [build BEN/Dec 17 2012   gcc 4.2.1 (Apple Inc. build 5666) (dot 3)]
+
+usage: dlv {FRONTEND} {OPTIONS} [filename [filename [...]]]
+
+Specify -help for more detailed usage information.
+
+
+##### Running User, Host and Date:
+User:	jessicacheng
+Host:	JessicatekiMacBook-Air.local
+Date:	2016-12-16-22:19:30
+
+
+##### Euler Outputs:
+******* You are running example andropogon-1948-1950 *******
+
+Possible world 0:
+{1.18"!"2.29, 1.18"!"2.28, 1.18"!"2.30, 1.18"!"2.27, 1.18"!"2.26, 1.19"!"2.28, 1.22"!"2.25, 1.21"!"2.29, 1.21"!"2.28, 1.21"!"2.30, 1.21"!"2.25, 1.20"!"2.29, 1.22"!"2.27, 1.22"!"2.30, 1.22"!"2.29, 1.23"!"2.25, 1.23"!"2.26, 1.23"!"2.27, 1.23"!"2.28, 1.23"!"2.29, 1.19"!"2.25, 1.19"!"2.27, 1.20"!"2.25, 1.20"><"2.26, 1.20"><"2.30, 1.19"><"2.26, 1.19"><"2.30, 1.17">"2.29, 1.17">"2.28, 1.17">"2.30, 1.17">"2.27, 1.17">"2.26, 1.17">"2.25, 1.19">"2.29, 1.20">"2.27, 1.20">"2.28, 1.20"<"2.24, 1.18"<"2.24, 1.22"<"2.24, 1.21"<"2.26, 1.21"<"2.24, 1.22"<"2.26, 1.23"<"2.24, 1.23"<"2.30, 1.19"<"2.24, 1.17"="2.24, 1.18"="2.25, 1.21"="2.27, 1.22"="2.28}
+
