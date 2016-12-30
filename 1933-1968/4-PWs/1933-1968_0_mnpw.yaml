@@ -1,0 +1,24 @@
+'1.14':
+  concept: '14'
+  group: '1'
+'1.15':
+  concept: '15'
+  group: '1'
+'1.16':
+  concept: '16'
+  group: '1'
+comb.1.13\n2.31\n2.32:
+  concept: 1.13\n2.31\n2.32
+  group: comb
+1.14_1.13\n2.31\n2.32:
+  label: input
+  s: '1.14'
+  t: 1.13\n2.31\n2.32
+1.15_1.13\n2.31\n2.32:
+  label: input
+  s: '1.15'
+  t: 1.13\n2.31\n2.32
+1.16_1.13\n2.31\n2.32:
+  label: input
+  s: '1.16'
+  t: 1.13\n2.31\n2.32

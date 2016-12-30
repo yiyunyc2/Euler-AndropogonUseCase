@@ -1,0 +1,13 @@
+taxonomy 1 Taxonomy1
+(13 14 15 16)
+
+taxonomy 2 Taxonomy2
+(31 32)
+
+articulation tw1 tw1
+
+[1.13 equals 2.31]
+[1.14 is_included_in 2.32]
+[1.15 is_included_in 2.32]
+[1.16 is_included_in 2.32]
+[1.14 1.15 1.16 l3sum 2.32]

@@ -1,0 +1,12 @@
+digraph {
+
+rankdir = RL
+
+"1.13\n2.31\n2.32" [shape=box style="filled,rounded" fillcolor="#EEEEEE"]
+"1.14" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.15" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.16" [shape=box style="filled" fillcolor="#CCFFCC"]
+"1.14" -> "1.13\n2.31\n2.32" [style=filled,label=1,color="#761212"];
+"1.15" -> "1.13\n2.31\n2.32" [style=filled,label=1,color="#761212"];
+"1.16" -> "1.13\n2.31\n2.32" [style=filled,label=1,color="#761212"];
+}
